@@ -1,0 +1,177 @@
+*{
+	padding:0;
+	margin:0;
+	list-style:none;
+	text-decoration: none;
+	font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.cover{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,.5);
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: none;
+	z-index: 100;
+}
+.cover_pic{
+	display: none;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	z-index: 101;
+	background: url(weixin.jpg)no-repeat;
+	background-size: 300px 300px;
+	position: absolute;
+	top: 20%;
+	left: 40%;
+}
+.left{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+
+.left_top{
+	height: 30%;
+	background: -webkit-linear-gradient(bottom,#B0B0B0,#9AC0CD);
+	position: relative;
+	z-index: 10
+}
+.left_top_span1{
+	width: 80px;
+	height: 80px;
+	border: 5px solid #D4D4D4;
+	position: absolute;
+	top: 78%;
+	left: 34%;
+	border-radius: 50%;
+	background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1516962901828&di=1806bdff38373a8f58ce7e9f32885b1a&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fcb8065380cd7912326e00e57a7345982b2b78095.jpg);
+}
+.left_bottom{
+	height: 70%;
+	background: #D4D4D4;
+	position: relative;
+	z-index: 9
+}
+.left_bottom_div1{
+	position: absolute;
+	top: 80%;
+	left: 30%;
+}
+.left_bottom_a1{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	font-size: 30px!important;
+	line-height: 32px;
+	text-align: center;
+	border-radius: 50%;
+	color: #2c2c2c;
+}
+.left_bottom_a2{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	font-size: 30px!important;
+	line-height: 32px;
+	text-align: center;
+	border-radius: 50%;
+	color: #32CD32;
+	padding-left: 10px;
+}
+.left_top_h1{
+	color: #595959;
+	animation: nameone .8s ease-out;
+}
+.left_top_p{
+	animation: nametwo .8s ease-out;
+    font-size: 12px;
+    color: #F4A460;
+    margin-top: 10px;
+}
+.left_top_title{
+	text-align: center;
+	padding-top: 40px
+}
+@keyframes nameone{
+	0%{transform: translateY(-50px)}
+    100%{transform:translateY(0px)}
+}
+@keyframes nametwo{
+	0%{transform: translateY(50px)}
+    100%{transform:translateY(0px)}
+}
+.icon-nan{
+	vertical-align: middle;
+	color: blue
+}
+.left_bottom_list{
+	padding-top: 100px;
+}
+.left_bottom_list div{
+	width: 100%;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	color: red;
+	text-align: center;
+	border-bottom: 1px solid rgba(255,255,255,.88)
+}
+.left_bottom_list div:hover{
+	cursor: pointer;
+	background: rgba(255,255,255,.4)
+}
+.right{
+	width: 70%;
+	height: 100%;
+	float: left;
+	background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1519637721041&di=b021530dd457c0abb1ffed9cb04e65dc&imgtype=0&src=http%3A%2F%2Fwww.wallcoo.com%2Fpaint%2Fspace_1600%2Fwallpapers%2F1600x1200%2Fwallcoo.com_Space_Art_wc.jpg)no-repeat;
+	background-size: 100% 100%;
+}
+.right_div{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	transition: all .8s ease;
+}
+.right_div div{
+    position: absolute;
+    top: 0;
+    z-index: 1
+}
+.right_div1{
+	color: #fff;
+	left: 0;
+	background: #121212;
+	width: 100%;
+	height: 100%;
+}
+.right_div2{
+	left: 100%;
+	background: blue;
+	width: 100%;
+	height: 100%;
+}
+.right_div3{
+	left: 100%;
+	background: green;
+	width: 100%;
+	height: 100%;
+}
+.right_div4{
+	left: 100%;
+	background: gray;
+	width: 100%;
+	height: 100%;
+}
+.right_div5{
+	left: 100%;
+	background: black;
+	width: 100%;
+	height: 100%;
+}
