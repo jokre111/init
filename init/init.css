@@ -23,7 +23,7 @@
 	height: 300px;
 	margin: 0 auto;
 	z-index: 101;
-	background: url(weixin.jpg)no-repeat;
+	background: url(init/weixin.jpg)no-repeat;
 	background-size: 300px 300px;
 	position: absolute;
 	top: 20%;
